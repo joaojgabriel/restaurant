@@ -16,7 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _image_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./image.jpg */ \"./src/image.jpg\");\n\n\nconst initialContent = () => {\n  const contentDiv = document.querySelector('#content');\n\n  const headline = document.createElement('h1');\n  headline.textContent = `Welcome to Bella's Bistro - Where Exquisite Flavors Meet Impeccable\n\tService!`;\n  const figure = document.createElement('figure');\n  const image = new Image(); // ??\n  image.src = _image_jpg__WEBPACK_IMPORTED_MODULE_0__; // ??\n  const attribution = document.createElement('figcaption');\n  const photographer = document.createElement('a');\n  photographer.href =\n    'https://unsplash.com/es/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText';\n  photographer.textContent = 'Louis Hansel';\n  const unsplash = document.createElement('a');\n  unsplash.href =\n    'https://unsplash.com/photos/u13IpYtZ9I8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText';\n  unsplash.textContent = 'Unsplash';\n  const photoBy = document.createTextNode('Photo by ');\n  attribution.appendChild(photoBy);\n  attribution.appendChild(photographer);\n  const onText = document.createTextNode(' on ');\n  attribution.appendChild(onText);\n  attribution.appendChild(unsplash);\n  figure.appendChild(image);\n  figure.appendChild(attribution);\n  const copy = document.createElement('p');\n  copy.textContent = `At Bella's Bistro, we pride ourselves on offering a dining experience\n\tthat combines exquisite flavors with impeccable service. Our expert\n\tchefs use only the finest ingredients to create dishes that are packed\n\twith flavor, and our friendly staff is dedicated to providing you with\n\tan unforgettable dining experience.`;\n\n  contentDiv.appendChild(headline);\n  contentDiv.appendChild(figure);\n  contentDiv.appendChild(copy);\n};\n\ninitialContent();\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _initialContent_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./initialContent.js */ \"./src/initialContent.js\");\n\n\n(0,_initialContent_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/initialContent.js":
+/*!*******************************!*\
+  !*** ./src/initialContent.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ initialContent)\n/* harmony export */ });\n/* harmony import */ var _image_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./image.jpg */ \"./src/image.jpg\");\n\n\nfunction initialContent() {\n  const contentDiv = document.querySelector('#content');\n\n  const headline = document.createElement('h1');\n  headline.textContent = `Welcome to Bella's Bistro - Where Exquisite Flavors Meet Impeccable\n\tService!`;\n  const figure = document.createElement('figure');\n  const image = new Image();\n  image.src = _image_jpg__WEBPACK_IMPORTED_MODULE_0__;\n  const attribution = document.createElement('figcaption');\n  const photographer = document.createElement('a');\n  photographer.href =\n    'https://unsplash.com/es/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText';\n  photographer.textContent = 'Louis Hansel';\n  const unsplash = document.createElement('a');\n  unsplash.href =\n    'https://unsplash.com/photos/u13IpYtZ9I8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText';\n  unsplash.textContent = 'Unsplash';\n  const photoBy = document.createTextNode('Photo by ');\n  attribution.appendChild(photoBy);\n  attribution.appendChild(photographer);\n  const onText = document.createTextNode(' on ');\n  attribution.appendChild(onText);\n  attribution.appendChild(unsplash);\n  figure.appendChild(image);\n  figure.appendChild(attribution);\n  const copy = document.createElement('p');\n  copy.textContent = `At Bella's Bistro, we pride ourselves on offering a dining experience\n\tthat combines exquisite flavors with impeccable service. Our expert\n\tchefs use only the finest ingredients to create dishes that are packed\n\twith flavor, and our friendly staff is dedicated to providing you with\n\tan unforgettable dining experience.`;\n\n  contentDiv.appendChild(headline);\n  contentDiv.appendChild(figure);\n  contentDiv.appendChild(copy);\n}\n\n\n//# sourceURL=webpack://restaurant/./src/initialContent.js?");
 
 /***/ }),
 
@@ -57,6 +67,18 @@ eval("module.exports = __webpack_require__.p + \"1a9e72c47f4571fc76a9.jpg\";\n\n
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
 /******/ 		__webpack_require__.g = (function() {
@@ -67,6 +89,11 @@ eval("module.exports = __webpack_require__.p + \"1a9e72c47f4571fc76a9.jpg\";\n\n
 /******/ 				if (typeof window === 'object') return window;
 /******/ 			}
 /******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
