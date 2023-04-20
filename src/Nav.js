@@ -13,8 +13,8 @@ export default function Nav() {
     }
   };
 
-  const renderPage = () => {
-    switch (currentPage) {
+  const renderPage = (page) => {
+    switch (page) {
       case 'menu':
         // Menu();
         break;
@@ -40,7 +40,7 @@ export default function Nav() {
   nav.appendChild(menu);
   menu.addEventListener('click', () => {
     clearContent();
-    renderPage();
+    renderPage('menu');
   });
 
   const contact = document.createElement('button');
@@ -48,6 +48,6 @@ export default function Nav() {
   nav.appendChild(contact);
   contact.addEventListener('click', () => {
     clearContent();
-    renderPage();
+    renderPage('contact');
   });
 }
