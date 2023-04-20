@@ -1,6 +1,6 @@
 import imageFile from './image.jpg';
 
-export default function initialContent() {
+export default function Initial() {
   const contentDiv = document.querySelector('#content');
 
   const headline = document.createElement('h1');

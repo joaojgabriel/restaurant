@@ -1,3 +1,5 @@
-import initialContent from './initialContent.js';
+import Nav from './Nav';
+import Initial from './Initial';
 
-initialContent();
+Nav();
+Initial();
