@@ -1,5 +1,5 @@
 import Initial from './Initial';
-// import Menu from './Menu';
+import Menu from './Menu';
 // import Contact from './Contact';
 
 export default function Nav() {
@@ -16,7 +16,7 @@ export default function Nav() {
   const renderPage = (page) => {
     switch (page) {
       case 'menu':
-        // Menu();
+        Menu();
         break;
       case 'contact':
         // Contact();
