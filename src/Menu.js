@@ -15,10 +15,9 @@ export default function Menu() {
       price: 12.99,
       image: {
         source: Spaghetti,
-        link: 'https://unsplash.com/photos/QuFm328PV88',
+        link: 'https://unsplash.com/@pinarimsi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
         photographer: {
-          profile:
-            'https://unsplash.com/@pinarimsi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+          profile: 'https://unsplash.com/photos/QuFm328PV88',
           name: 'Pinar Kucuk',
         },
       },
@@ -29,10 +28,9 @@ export default function Menu() {
       price: 10.99,
       image: {
         source: Pizza,
-        link: 'https://unsplash.com/photos/x00CzBt4Dfk',
+        link: 'https://unsplash.com/@aurel__lens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
         photographer: {
-          profile:
-            'https://unsplash.com/@aurel__lens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+          profile: 'https://unsplash.com/photos/x00CzBt4Dfk',
           name: 'Aurélien Lemasson-Théobald',
         },
       },
@@ -44,10 +42,9 @@ export default function Menu() {
       price: 14.99,
       image: {
         source: Beef,
-        link: 'https://unsplash.com/photos/OBxF5lHY3zo',
+        link: 'https://unsplash.com/@clouda9?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
         photographer: {
-          profile:
-            'https://unsplash.com/@clouda9?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+          profile: 'https://unsplash.com/photos/OBxF5lHY3zo',
           name: 'Correen',
         },
       },
