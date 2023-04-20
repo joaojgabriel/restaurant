@@ -4,11 +4,12 @@ export default function Initial() {
   const contentDiv = document.querySelector('#content');
 
   const headline = document.createElement('h1');
-  headline.textContent = `Welcome to Bella's Bistro - Where Exquisite Flavors Meet Impeccable
-	Service!`;
+  headline.textContent = `Welcome to Bella's Bistro`;
+
   const figure = document.createElement('figure');
   const image = new Image();
   image.src = imageFile;
+
   const attribution = document.createElement('figcaption');
   const photographer = document.createElement('a');
   photographer.href =
@@ -24,14 +25,12 @@ export default function Initial() {
   const onText = document.createTextNode(' on ');
   attribution.appendChild(onText);
   attribution.appendChild(unsplash);
+
   figure.appendChild(image);
   figure.appendChild(attribution);
+
   const copy = document.createElement('p');
-  copy.textContent = `At Bella's Bistro, we pride ourselves on offering a dining experience
-	that combines exquisite flavors with impeccable service. Our expert
-	chefs use only the finest ingredients to create dishes that are packed
-	with flavor, and our friendly staff is dedicated to providing you with
-	an unforgettable dining experience.`;
+  copy.textContent = `At Bella's Bistro, we pride ourselves on offering a dining experience that combines exquisite flavors with impeccable service. Our expert chefs use only the finest ingredients to create dishes that are packed with flavor, and our friendly staff is dedicated to providing you with an unforgettable dining experience.`;
 
   contentDiv.appendChild(headline);
   contentDiv.appendChild(figure);
