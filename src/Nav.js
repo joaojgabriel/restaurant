@@ -1,6 +1,6 @@
 import Initial from './Initial';
 import Menu from './Menu';
-// import Contact from './Contact';
+import Contact from './Contact';
 
 export default function Nav() {
   const nav = document.createElement('nav');
@@ -19,7 +19,7 @@ export default function Nav() {
         Menu();
         break;
       case 'contact':
-        // Contact();
+        Contact();
         break;
       default:
         Initial();
